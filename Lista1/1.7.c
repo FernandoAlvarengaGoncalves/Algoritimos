@@ -1,13 +1,15 @@
 #include <stdio.h>
-
 int main (){
 	
 	int A;
-
+	
 	scanf("%d", &A);
-	printf("O numero eh: %d", A);	
 	
+	A = A-1;
+	printf("Antecessor = %d\n", A);
 	
+	A = A+2;
+	printf("Sucessor = %d", A);
 	
 	
 	
