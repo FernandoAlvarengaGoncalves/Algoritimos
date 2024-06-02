@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main (){
 	
-	
 	int id;
 	
-	printf("Digite a idade: ");
+	printf("Informe a idade: ");
 	scanf("%d", &id);
 	
 	printf("Idade: %d anos", id);
@@ -15,5 +14,7 @@ int main (){
 	
 	
 	
+	
 	return 0;
 }
+
